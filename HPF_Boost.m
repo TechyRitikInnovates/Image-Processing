@@ -12,7 +12,7 @@ clear
 f = double(imread('Img_3.tif'));
 
 [row, col] = size(f);
-w = [-1 -1 -1; -1 8 -1; -1 -1 -1];
+w = [-1 -1 -1; -1 8.3 -1; -1 -1 -1];
 
 for x=2:1:row-1
   for y= 2:1:col-1;
